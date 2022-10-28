@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#profile__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 44px;
+  object-fit: cover;
+}
