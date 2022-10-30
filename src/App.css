@@ -3,6 +3,7 @@
   margin: auto;
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -15,6 +16,13 @@ a {
   height: 88px;
   border-radius: 44px;
   object-fit: cover;
+  margin-top: 64px;
+}
+
+header p {
+  margin: 24px 0 56px 0;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 section {
@@ -36,8 +44,42 @@ section {
   border-radius: 8px;
   width: 80%;
   margin: 0 144px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 #slack {
   display: none;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-bottom: 64px;
+  padding: 24px;
+}
+
+.logo img {
+  width: 24px;
+  margin-right: 26px;
+}
+
+#zuri_logo {
+  width: 185px;
+}
+
+#i4g_logo {
+  width: 132px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  padding: 86px 113px 48px 113px;
+}
+
+footer p {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
 }
