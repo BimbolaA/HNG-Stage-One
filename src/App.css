@@ -1,6 +1,13 @@
 * {
+  width: 1440px;
+  margin: auto;
   box-sizing: border-box;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
 }
 
 #profile__img {
@@ -8,4 +15,29 @@
   height: 88px;
   border-radius: 44px;
   object-fit: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#twitter,
+#slack,
+#btn__zuri,
+#books,
+#book__python,
+#pitch,
+#book__design {
+  background-color: #EAECF0;
+  padding: 24px;
+  color: #101828;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 144px;
+}
+
+#slack {
+  display: none;
 }
